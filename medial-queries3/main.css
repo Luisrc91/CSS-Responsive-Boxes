@@ -1,3 +1,59 @@
 body {
+  
   background: peachpuff;
 }
+
+.container{  
+  /* padding: 10px; */
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  gap: 20px;
+  /* text-align: center; */
+ 
+}
+
+*{
+  box-sizing: border-box;
+  font-size: 1.5em;
+  
+}
+
+.a{
+  text-align:center;
+}
+.a{
+  display: flex;
+  border: solid 1px ;
+  background-color: lightcoral;
+  min-height: 20vh;
+  text-align: center;
+ 
+}
+
+.main{
+  display: flex;  
+  gap: 30px;
+  text-align: center;
+  
+}
+
+.b, .c, .d, .e, .f, .g {
+  min-height: 15vh; border: 1px solid;
+  flex-grow: 1; flex-shrink: 0;
+  background-color: rgb(31, 177, 177);
+  flex-wrap: wrap;
+  
+   
+}
+
+.h{
+  display: flex;
+  border: solid 1px ;
+  background-color: rgb(165, 203, 70);
+  min-height: 40vh;
+  text-align: center;
+ 
+}
+ 

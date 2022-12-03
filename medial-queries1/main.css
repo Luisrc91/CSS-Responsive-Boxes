@@ -12,15 +12,14 @@ body {
   flex-wrap: wrap;
   min-height: 100vh;
   /* justify-content: space-between; */
-  gap: 10px;
-  
-  
+  gap: 10px;  
 }
+
 *{
   box-sizing: border-box;
   font-size: 1.5em;
-
 }
+
 .a{
   /* width: 100%; */
   /* display: flex; */
@@ -29,7 +28,7 @@ body {
   background-color: aqua;
   position:relative;
   flex: 1;
-  flex-grow:2 ;
+  flex-grow:.5 ;
   /* max-width: 300px; */
   /* min-height: 250px; */
   border-radius: 5px;
@@ -57,7 +56,7 @@ body {
   background-color: aqua;
   position:relative;
   flex: 1;
-  flex-grow:2 ;
+  flex-grow:.5 ;
   /* max-width: 300px; */
   /* min-height: 250px; */
   border-radius: 5px;
